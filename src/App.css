@@ -1,0 +1,81 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.project-title{
+  font-size: 2rem;
+}
+
+.notes-container{
+  margin-top: 2rem;
+  background-color: grey;
+  width: 50rem;
+  height: 30rem;
+  position: relative;
+}
+
+.notes-list{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+  height: 25rem;
+  width: 8rem;
+  overflow-y:auto;
+}
+
+.selected-note{
+  margin-left: 15rem;
+  margin-top: 2rem;
+}
+
+.selected-note-text{
+  resize: none;
+  width: 30rem;
+  height: 20rem;
+  margin-bottom: 0.4rem;
+}
+
+.selected-note-title{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.selected-note button{
+  padding: 0.4rem 1rem;
+}
+
+.create-new-list{
+  cursor: pointer;
+  padding: 1rem 0rem;
+  width: 4rem;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.selected .list-item{
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.list-item{
+  border: 1px solid black;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: 1rem;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.x-button{
+  cursor: pointer;
+  color: red;
+  margin-left: 6px;
+}
